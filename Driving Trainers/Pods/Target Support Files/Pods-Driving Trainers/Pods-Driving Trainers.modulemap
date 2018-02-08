@@ -1,0 +1,6 @@
+framework module Pods_Driving_Trainers {
+  umbrella header "Pods-Driving Trainers-umbrella.h"
+
+  export *
+  module * { export * }
+}

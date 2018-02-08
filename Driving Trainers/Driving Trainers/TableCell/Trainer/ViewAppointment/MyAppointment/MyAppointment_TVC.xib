@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="159" id="KGk-i7-Jjw" customClass="MyAppointment_TVC" customModule="Driving_Trainers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="158.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JHON DOE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abs-Ps-rzB">
+                        <rect key="frame" x="15" y="15" width="290" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11-02-2018 10:30 AM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEH-m0-7qO">
+                        <rect key="frame" x="15" y="51" width="290" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+61234567890" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfY-pt-Y4E">
+                        <rect key="frame" x="15" y="87" width="290" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOLLOS, 40 MIN" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKL-UT-KdX">
+                        <rect key="frame" x="15" y="123" width="290" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FIx-Hq-0KB">
+                        <rect key="frame" x="15" y="157" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.77254901960784317" green="0.77254901960784317" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="x1d-0O-GEL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="abs-Ps-rzB" secondAttribute="trailing" constant="15" id="0Qw-51-DLt"/>
+                    <constraint firstAttribute="trailing" secondItem="NfY-pt-Y4E" secondAttribute="trailing" constant="15" id="0xz-cW-qJn"/>
+                    <constraint firstAttribute="bottom" secondItem="zKL-UT-KdX" secondAttribute="bottom" constant="14.5" id="2bz-86-cwB"/>
+                    <constraint firstAttribute="trailing" secondItem="zKL-UT-KdX" secondAttribute="trailing" constant="15" id="Dbk-eS-jQ7"/>
+                    <constraint firstItem="abs-Ps-rzB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="EEe-1j-ZbT"/>
+                    <constraint firstItem="rEH-m0-7qO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="LgM-rK-NpT"/>
+                    <constraint firstItem="NfY-pt-Y4E" firstAttribute="top" secondItem="rEH-m0-7qO" secondAttribute="bottom" constant="15" id="Xw1-Fz-hVs"/>
+                    <constraint firstItem="zKL-UT-KdX" firstAttribute="top" secondItem="NfY-pt-Y4E" secondAttribute="bottom" constant="15" id="fll-qd-Gjg"/>
+                    <constraint firstAttribute="bottom" secondItem="FIx-Hq-0KB" secondAttribute="bottom" id="gI5-JB-iwA"/>
+                    <constraint firstItem="FIx-Hq-0KB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hdC-u8-UxS"/>
+                    <constraint firstItem="rEH-m0-7qO" firstAttribute="top" secondItem="abs-Ps-rzB" secondAttribute="bottom" constant="15" id="kdj-Tc-jcc"/>
+                    <constraint firstItem="NfY-pt-Y4E" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="rq2-a3-F57"/>
+                    <constraint firstItem="abs-Ps-rzB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="uGE-r3-kQn"/>
+                    <constraint firstAttribute="trailing" secondItem="rEH-m0-7qO" secondAttribute="trailing" constant="15" id="vtj-td-TxX"/>
+                    <constraint firstItem="zKL-UT-KdX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="wCG-nf-jMf"/>
+                    <constraint firstAttribute="trailing" secondItem="FIx-Hq-0KB" secondAttribute="trailing" constant="15" id="yYk-s8-OE4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="rEH-m0-7qO" id="Mdt-x3-A0U"/>
+                <outlet property="learnerNameLabel" destination="abs-Ps-rzB" id="zqm-Xw-cLX"/>
+                <outlet property="lessionName" destination="zKL-UT-KdX" id="Nyb-uC-RJZ"/>
+                <outlet property="mobileLabel" destination="NfY-pt-Y4E" id="UF5-NG-NuK"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="109.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'Driving Trainers' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'IQKeyboardManagerSwift'
+pod 'SideMenu'
+pod 'NVActivityIndicatorView'
+pod 'XLPagerTabStrip', '~> 8.0'
+pod 'Charts'
+pod 'Alamofire', '~> 4.5'
+pod 'SwiftyJSON'
+pod 'NotificationBannerSwift'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
+pod 'GoogleSignIn'
+pod 'Google/SignIn'
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+pod 'Cosmos', '~> 13.0'
+pod 'BraintreeDropIn'
+  # Pods for Driving Trainers
+ 
+end
